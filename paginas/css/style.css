@@ -1,0 +1,116 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Julius Sans One';
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+
+/* BANNER */
+main section.banner {
+  display: flex;
+  background-color: #F2F0FF;
+}
+
+main section.banner img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #000000;
+  margin: 2%;
+}
+
+main {
+  background-image: url(../src/capa.jpg);
+  background-position: center;
+  background-repeat:no-repeat ;
+  background-size: 100% auto;
+
+
+}
+
+/* capa */
+
+section.capa {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  color: aliceblue;
+  font-size: 5.0rem;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/* menus */
+
+section.menu {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 20%;
+}
+
+section.menu p.button button a {
+  color: #F2F0FF;
+  background: linear-gradient(black,darkgray,black);
+  border-radius: 30px;
+  font-style: italic;
+}
+
+
+ section.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+section.menu p.button button a {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+section.menu ul {
+  display: block;
+}
+
+section.menu ul li {
+  margin: 50% 10px;
+}
+
+section.menu ul li a {
+  color: white;
+  font-size: 3.5rem;
+  background: linear-gradient(black,darkgray,black);
+  border-radius: 15px;
+  font-style: italic;
+}
+
+/* footer */
+
+
+footer div.creators {
+  color: #F2F0FF;
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+footer div.creators ul {
+  display: block;
+  
+}
+
+footer div.creators ul li {
+  margin: 20px;
+  
+}
+
+footer div.creators ul li a {
+  color: gray;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
