@@ -53,9 +53,9 @@ header nav ul li a:hover {
     font-size: 1.8rem;
 }
 
-/* pré-sono */
+/* beneficios */
 
-section.presono h1 {
+section.beneficio h1 {
   font-size: 6rem;
   color: white;
 }
@@ -67,32 +67,32 @@ hr {
   background-color: gray; 
 }
 
-section.presono div.texto1 {
+section.beneficio div.texto1 {
   display: flex;
   padding: 10px;
 }
 
-section.presono div.texto1 div.conteudo1, div.imagem1 {
+section.beneficio div.texto1 div.conteudo1, div.imagem1 {
   display: flex;
   
 
 }
 
-section.presono div.texto1 div.conteudo1 {
+section.beneficio div.texto1 div.conteudo1 {
   display: block;
   color: white;
   flex-grow: 1;
 }
 
 
-section.presono div.texto1 div.conteudo1 p {
+section.beneficio div.texto1 div.conteudo1 p {
   font-size: 2rem;
   padding-bottom: 40px;
   padding-right: 10%;
   line-height: 1.5;
 }
 
-section.presono div.texto1 div.conteudo1 ul li p {
+section.beneficio div.texto1 div.conteudo1 ul li p {
   font-size: 1.5rem;
   padding-bottom: 35px;
   padding-left: 50px;
@@ -100,36 +100,22 @@ section.presono div.texto1 div.conteudo1 ul li p {
   
 }
 
-section.presono div.texto1 div.imagem1 {
+section.beneficio div.texto1 div.imagem1 {
   flex-grow: 1;
   width: 100%;
   height: auto;
   padding-left: 50px;
 }
 
-/*alimentação*/
+/* beneficios2 */
 
-section.alimentacao h1 {
-  font-size: 6rem;
-  color: white;
-  text-align: right;
-  padding-top: 2vw;
-}
-
-hr {
-  width: 100%;
-  border: none; 
-  height: 2px;
-  background-color: gray; 
-}
-
-section.alimentacao div.texto2 div.conteudo2, div.imagem2 {
+section.beneficio2 div.texto2 div.conteudo2, div.imagem2 {
   display: flex;
   
 
 }
 
-section.alimentacao div.texto2 {
+section.beneficio2 div.texto2 {
   display: flex;
   padding: 10px;
   
@@ -137,50 +123,43 @@ section.alimentacao div.texto2 {
 }
 
 
-section.alimentacao div.texto2 div.imagem2 {
+section.beneficio2 div.texto2 div.imagem2 {
   flex-grow: 1;
   width: 100%;
   height: auto;
   padding-right: 20px;
 }
 
-section.alimentacao div.texto2 div.conteudo2 {
+section.beneficio2 div.texto2 div.conteudo2 {
   display: block;
   color: white;
   flex-grow: 1;
 }
 
-
-section.alimentacao div.texto2 div.conteudo2 p {
-  font-size: 2rem;
-  padding-bottom: 40px;
-  line-height: 1.5;
-
-}
-
-section.alimentacao div.texto2 div.conteudo2 ul li p {
+section.beneficio2 div.texto2 div.conteudo2 ul li p {
   font-size: 1.5rem;
   padding-top: 40px;
   padding-left: 50px;
   line-height: 1.5;
 }
 
-section.alimentacao div.texto2 div.conteudo2 ul li p span.cafe a {
-  color: darkcyan;
+section.vid2 {
+    display: block;
+    margin-left: 40%;
 }
 
-section.alimentacao div.texto2 div.conteudo2 ul li p span.termo a {
-  color: darkcyan;
+section.vid2 div.link1 a {
+    font-size: 1.4rem;
+    color: darkcyan;
 }
 
 
+/* maleficio */
 
-/* Ambiente */
-
-section.ambiente h1 {
+section.maleficio div.texto3 h1 {
   font-size: 6rem;
   color: white;
-  text-align: center;
+  text-align: left;
   padding-top: 2vw;
 }
 
@@ -191,35 +170,65 @@ hr {
   background-color: gray; 
 }
 
-section.ambiente div.conteudo3 {
+section.maleficio div.conteudo3 {
   display: block;
   color: white;
   flex-grow: 1;
 }
 
 
-section.ambiente div.conteudo3 p {
+section.maleficio div.conteudo3 p {
   font-size: 2rem;
   padding-bottom: 40px;
   line-height: 1.5;
 
 }
 
-section.ambiente div.conteudo3 ul li p {
+section.maleficio div.conteudo3 ul li p {
   font-size: 1.5rem;
   padding-top: 40px;
   padding-left: 50px;
   line-height: 1.5;
 }
 
-section.ambiente div.imagem3 {
+section.maleficio div.imagem3 {
   width: 100%;
   height: auto;
   padding-bottom: 50px;
 
 }
 
-/* footer */ 
+section.vid1 {
+    display: flex;
+    
+    
+}
+
+section.vid1 div.uno {
+    width: 50%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20px;
+}
+
+section.vid1 div.dos {
+    width: 50%;
+    height: auto;
+    padding-right: 20%;
+    padding-left: 20px;
+}
+
+section.vid1 div.uno div.link2 a {
+    font-size: 1.4rem;
+    color: darkcyan;
+}
+
+section.vid1 div.dos div.link3 a {
+    font-size: 1.4rem;
+    color: darkcyan;
+}
+
+/* footer */
 
 footer div.creators {
   color: #F2F0FF;

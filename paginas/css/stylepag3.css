@@ -1,0 +1,137 @@
+:root {
+    --main-bg-color: brown;
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Julius Sans One';
+}
+
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: black;
+    /* altera a cor de todos os links das páginas */
+}
+
+body {
+    background-color: #191A1B;
+    margin: 1vw;
+    size: 150%;
+
+
+}
+
+header {
+    padding: 0vw 0vw 3vw 0vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+    padding-bottom: 20rem;
+    background-image: url(../src/banner\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 15px 13px 0 13px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    transition: background-color 0.6s ease;
+    transition: font-size 0.6s ease;
+}
+
+header nav ul li a:hover {
+    background-color: gray;
+    font-size: 1.8rem;
+}
+
+/* sobre o Projeto */
+
+section.projeto h1 {
+    font-size: 6rem;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: gray;
+}
+
+section.projeto div.gian p {
+    font-size: 2rem;
+    padding-bottom: 40px;
+    padding-right: 10%;
+    line-height: 1.5;
+    color: white;
+}
+
+section.projeto div.kevin p {
+    font-size: 2rem;
+    padding-bottom: 40px;
+    padding-right: 10%;
+    line-height: 1.5;
+    color: white;
+}
+
+/* sobre nós */
+
+section.nos h1 {
+    font-size: 6rem;
+    color: white;
+    padding-bottom: ;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: gray;
+}
+
+section.nos div.gian h1 {
+    font-size: 6rem;
+    color: white;
+    padding-top: 5vw;
+}
+
+section.nos div.gian h2 {
+    font-size: 3rem;
+    color: gray;
+}
+
+footer div.creators {
+  color: #F2F0FF;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  background-color: #000000;
+  padding: 50px;
+}
+
+footer div.creators ul {
+  display: block;
+  
+}
+
+footer div.creators ul li {
+  margin: 20px;
+  
+}
+
+footer div.creators ul li a {
+  color: gray;
+  font-size: 1.5rem;
+  text-decoration: underline; 
+}

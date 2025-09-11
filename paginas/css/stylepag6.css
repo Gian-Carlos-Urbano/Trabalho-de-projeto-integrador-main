@@ -1,0 +1,126 @@
+:root {
+    --main-bg-color: brown;
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Julius Sans One';
+}
+
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: black;
+    /* altera a cor de todos os links das páginas */
+}
+
+body {
+    background-color: #191A1B;
+    margin: 1vw;
+    size: 150%;
+
+
+}
+
+header {
+    padding: 0vw 0vw 3vw 0vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+    padding-bottom: 20rem;
+    background-image: url(../src/banner\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 15px 13px 0 13px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    transition: background-color 0.6s ease;
+    transition: font-size 0.6s ease;
+}
+
+header nav ul li a:hover {
+    background-color: gray;
+    font-size: 1.8rem;
+}
+
+/* artigos */
+
+section.artigos h1 {
+    font-size: 6rem;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: gray;
+}
+
+section.artigos h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+
+
+section.artigos div.primero p{
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+}
+
+section.artigos div.segundo p{
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+}
+
+section.artigos div.terceiro p{
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+}
+
+section.artigos span a {
+    color: darkcyan;
+}
+
+/* footer */
+
+footer div.creators {
+  color: #F2F0FF;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  background-color: #000000;
+  padding: 50px;
+}
+
+footer div.creators ul {
+  display: block;
+  
+}
+
+footer div.creators ul li {
+  margin: 20px;
+  
+}
+
+footer div.creators ul li a {
+  color: gray;
+  font-size: 1.5rem;
+  text-decoration: underline; 
+}

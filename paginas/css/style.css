@@ -109,6 +109,8 @@ footer div.creators {
   color: #F2F0FF;
   font-weight: lighter;
   font-size: 1.6rem;
+  background-color: #000000;
+  padding: 50px;
 }
 
 footer div.creators ul {
