@@ -88,10 +88,12 @@ section.projeto div.kevin p {
 
 /* sobre nós */
 
+/* gian */
+
 section.nos h1 {
     font-size: 6rem;
     color: white;
-    padding-bottom: ;
+    padding-bottom: 10px;
 }
 
 hr {
@@ -105,18 +107,142 @@ section.nos div.gian h1 {
     font-size: 6rem;
     color: white;
     padding-top: 5vw;
+    text-align: right;
 }
 
 section.nos div.gian h2 {
     font-size: 3rem;
     color: gray;
+    text-align: right;
+}
+
+
+section.nos div.nope {
+  display: flex;
+  padding: 10px;
+}
+
+section.nos div.nope div.texto3, div.imagem1 {
+  display: flex;
+  
+
+}
+
+section.nos div.nope div.texto3 {
+  display: block;
+  color: white;
+  flex-grow: 1;
+}
+
+
+section.nos div.nope div.texto3 p {
+  font-size: 2rem;
+  padding-bottom: 40px;
+  padding-right: 10%;
+  line-height: 1.5;
+}
+
+
+section.nos div.nope div.imagem1 {
+  flex-grow: 1;
+  width: 70%;
+  height: auto;
+  justify-content: center;
+}
+
+/* kevin */
+
+section.nos2 h1 {
+    font-size: 6rem;
+    color: white;
+    padding-bottom: ;
+    text-align: right;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: gray;
+}
+
+section.nos2 h1 {
+    font-size: 6rem;
+    color: white;
+    padding-top: 5vw;
+    text-align: right;
+}
+
+section.nos2 div.kevin h2 {
+    font-size: 3rem;
+    color: gray;
+    text-align: right;
+}
+
+section.nos2 div.nope2 div.texto4, div.imagem2 {
+  display: flex;
+  
+  
+
+}
+
+section.nos2 div.nope2 {
+  display: flex;
+  padding: 10px;
+  
+  
+}
+
+
+section.nos2 div.nope2 div.imagem2 {
+  flex-grow: 1;
+  width: 100%;
+  height: auto;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+section.nos2 div.nope2 div.texto4 {
+  display: block;
+  color: white;
+  flex-grow: 1;
+}
+
+
+section.nos2 div.nope2 div.texto4 p {
+  font-size: 2rem;
+  padding-bottom: 40px;
+  line-height: 1.5;
+
+}
+
+section.nos2 div.nope2 div.texto4 p {
+  font-size: 2rem;
+  padding-top: 40px;
+  padding-left: 50px;
+  line-height: 1.5;
+}
+
+
+
+
+/* footer */
+
+footer div.geral {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+}
+
+footer div.geral div.logo {
+  width: 20%;
 }
 
 footer div.creators {
   color: #F2F0FF;
   font-weight: lighter;
   font-size: 1.6rem;
-  background-color: #000000;
+  
   padding: 50px;
 }
 
@@ -133,5 +259,5 @@ footer div.creators ul li {
 footer div.creators ul li a {
   color: gray;
   font-size: 1.5rem;
-  text-decoration: underline; 
+  text-decoration: underline;
 }

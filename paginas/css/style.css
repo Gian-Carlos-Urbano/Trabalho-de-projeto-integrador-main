@@ -105,11 +105,22 @@ section.menu ul li a:hover{
 /* footer */
 
 
+
+footer div.geral {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+}
+
+footer div.geral div.logo {
+  width: 20%;
+}
+
 footer div.creators {
   color: #F2F0FF;
   font-weight: lighter;
   font-size: 1.6rem;
-  background-color: #000000;
+  
   padding: 50px;
 }
 
