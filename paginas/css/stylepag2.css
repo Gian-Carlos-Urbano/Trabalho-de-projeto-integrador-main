@@ -145,7 +145,8 @@ section.beneficio2 div.texto2 div.conteudo2 ul li p {
 
 section.vid2 {
     display: block;
-    margin-left: 40%;
+    margin-left: 35%;
+    margin-right: auto;
 }
 
 section.vid2 div.link1 a {
@@ -216,7 +217,7 @@ section.vid1 div.dos {
     height: auto;
     padding-right: 20%;
     padding-left: 20px;
-}
+  }
 
 section.vid1 div.uno div.link2 a {
     font-size: 1.4rem;
