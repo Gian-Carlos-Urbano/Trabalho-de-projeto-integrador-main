@@ -68,7 +68,6 @@ hr {
     border: none;
     height: 2px;
     background-color: gray;
-    margin-bottom: 2vw;
 }
 
 section.projeto div.gian p {
@@ -77,6 +76,7 @@ section.projeto div.gian p {
     padding-right: 10%;
     line-height: 1.5;
     color: white;
+    margin-top: 2vw;
 }
 
 section.projeto div.kevin p {
