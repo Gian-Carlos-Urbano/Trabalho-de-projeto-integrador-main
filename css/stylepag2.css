@@ -64,7 +64,8 @@ hr {
   width: 100%;
   border: none; 
   height: 2px;
-  background-color: gray; 
+  background-color: gray;
+  
 }
 
 section.beneficio div.texto1 {
@@ -227,6 +228,10 @@ section.vid1 div.uno div.link2 a {
 section.vid1 div.dos div.link3 a {
     font-size: 1.4rem;
     color: darkcyan;
+}
+
+hr.metido {
+  margin-top: 2vw;
 }
 
 /* footer */
