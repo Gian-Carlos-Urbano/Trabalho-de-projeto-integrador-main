@@ -25,7 +25,7 @@ header {
 
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     padding-left: 10rem;
     padding-bottom: 20rem;
@@ -108,6 +108,7 @@ footer div.geral {
   display: flex;
   align-items: center;
   background-color: #000000;
+  justify-content: space-between;
 }
 
 footer div.geral div.logo {
