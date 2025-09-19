@@ -114,7 +114,7 @@ section.nos div.nope div.texto3 p {
 
 section.nos div.nope div.imagem1 {
   flex-grow: 1;
-  width: 70%;
+  width: 100%;
   height: auto;
   justify-content: center;
 }
