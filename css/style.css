@@ -60,10 +60,6 @@ section.menu {
   
 }
 
-section.menu p.button button a {
-  font-size: 6rem;
-  font-weight: bold;
-}
 
 section.menu ul {
   display: block;
